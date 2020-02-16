@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="15b88a13-4ad6-411a-ace6-2d0778b89cad" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="userSettingsFile" value="C:\Users\Santosh\.m2\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1XqrNQQOjE05DGIkkecobwD6kjw" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/java" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\My Automation\MyAllGitProjects\BDDAutomationFramework\src\test\java" />
+      <recent name="E:\My Automation\MyAllGitProjects\BDDAutomationFramework\src\main\resources" />
+      <recent name="E:\My Automation\MyAllGitProjects\BDDAutomationFramework\src\main\java" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn test install surefire-report:report" />
+      <command value="mvn clean install surefire-report:report" />
+      <command value="mvn clean test install surefire-report:report" />
+      <command value="mvn clean" />
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.TestRunner_SWTestAcademy">
+    <configuration name="Feature: SoftwareTestAcademy" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/Features/SoftwareTestAcademy.feature" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="BDDAutomationFramework" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: SoftwareTestAcademy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TC1_swtContactPage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="BDDAutomationFramework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TestCases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="TestCases" />
+      <option name="MAIN_CLASS_NAME" value="TestCases.TC1_swtContactPage" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TC2_Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="BDDAutomationFramework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TestCases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="TestCases" />
+      <option name="MAIN_CLASS_NAME" value="TestCases.TC2_Test" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestRunner_SWTestAcademy" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="BDDAutomationFramework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TestRunners.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="TestRunners" />
+      <option name="MAIN_CLASS_NAME" value="TestRunners.TestRunner_SWTestAcademy" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.TestRunner_SWTestAcademy" />
+        <item itemvalue="Cucumber java.Feature: SoftwareTestAcademy" />
+        <item itemvalue="JUnit.TC1_swtContactPageTest" />
+        <item itemvalue="JUnit.TC2_Test" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="15b88a13-4ad6-411a-ace6-2d0778b89cad" name="Default Changelist" comment="" />
+      <created>1581784424364</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1581784424364</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="438" y="71" key="#xdebugger.evaluate" timestamp="1581794417654">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="438" y="71" key="#xdebugger.evaluate/0.0.1366.728@0.0.1366.728" timestamp="1581794417654" />
+    <state width="1322" height="306" key="GridCell.Tab.0.bottom" timestamp="1581857836921">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="306" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1581857836921" />
+    <state width="1322" height="306" key="GridCell.Tab.0.center" timestamp="1581857836921">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="306" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1581857836921" />
+    <state width="1322" height="306" key="GridCell.Tab.0.left" timestamp="1581857836921">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="306" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1581857836921" />
+    <state width="1322" height="306" key="GridCell.Tab.0.right" timestamp="1581857836921">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="306" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1581857836921" />
+    <state width="1322" height="194" key="GridCell.Tab.1.bottom" timestamp="1581827276858">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="194" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1581827276858" />
+    <state width="1322" height="194" key="GridCell.Tab.1.center" timestamp="1581827276858">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="194" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1581827276858" />
+    <state width="1322" height="194" key="GridCell.Tab.1.left" timestamp="1581827276858">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="194" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1581827276858" />
+    <state width="1322" height="194" key="GridCell.Tab.1.right" timestamp="1581827276858">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="194" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1581827276858" />
+    <state x="213" y="20" key="Maven.ArtifactSearchDialog" timestamp="1581793567954">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="213" y="20" key="Maven.ArtifactSearchDialog/0.0.1366.728@0.0.1366.728" timestamp="1581793567954" />
+    <state x="186" y="0" key="SettingsEditor" timestamp="1581788236118">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="186" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1581788236118" />
+    <state x="339" y="157" width="672" height="677" key="run.anything.popup" timestamp="1581857786902">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="339" y="157" width="672" height="677" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1581857786902" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/TestCases/TC1_swtContactPage.java</url>
+          <line>52</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/TestCases/TC1_swtContactPage.java</url>
+          <line>54</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/TestCases/TC1_swtContactPage.java</url>
+          <line>46</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Config/TestResultLoggerExtension.java</url>
+          <line>54</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Config/TestResultLoggerExtension.java</url>
+          <line>75</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-field">
+          <url>file://$PROJECT_DIR$/src/main/java/Config/TestResultLoggerExtension.java</url>
+          <line>29</line>
+          <properties field="testResultsStatus" class="Config.TestResultLoggerExtension" />
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
