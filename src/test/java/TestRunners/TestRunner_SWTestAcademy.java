@@ -9,7 +9,8 @@ import org.junit.runner.RunWith;
         features="src\\test\\resources\\Features",
         glue="Stepdefinitions",
         strict = true,
-        plugin = { "pretty", "junit:target/cucumber-reports/Cucumber_Results.xml" },
+        plugin = { "pretty", "junit:target/cucumber-reports/Cucumber_Results.xml","json:target/cucumber-reports/Cucumber.json",
+                "html:target/cucumber-reports"},
         monochrome = true
 )
 public class TestRunner_SWTestAcademy

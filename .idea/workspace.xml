@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="15b88a13-4ad6-411a-ace6-2d0778b89cad" name="Default Changelist" comment="" />
+    <list default="true" id="15b88a13-4ad6-411a-ace6-2d0778b89cad" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Stepdefinitions/Stepdef_SWTestAcademy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Stepdefinitions/Stepdef_SWTestAcademy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestRunners/TestRunner_SWTestAcademy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestRunners/TestRunner_SWTestAcademy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/Features/SoftwareTestAcademy.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/Features/SoftwareTestAcademy.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-reports/Cucumber_Results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-reports/Cucumber_Results.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Features/SoftwareTestAcademy.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Features/SoftwareTestAcademy.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Stepdefinitions/Stepdef_SWTestAcademy.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Stepdefinitions/Stepdef_SWTestAcademy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/TestRunners/TestRunner_SWTestAcademy.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/TestRunners/TestRunner_SWTestAcademy.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -26,6 +35,7 @@
     <option name="importingSettings">
       <MavenImportingSettings>
         <option name="importAutomatically" value="true" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
       </MavenImportingSettings>
     </option>
   </component>
@@ -39,7 +49,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/java" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -139,61 +149,85 @@
       <option name="presentableId" value="Default" />
       <updated>1581784424364</updated>
     </task>
+    <task id="LOCAL-00001" summary="cloned the remote repos">
+      <created>1581860182637</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1581860182637</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="cloned the remote repos" />
+    <option name="LAST_COMMIT_MESSAGE" value="cloned the remote repos" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="275" y="24" key="#Notifications" timestamp="1581860257132">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="24" key="#Notifications/0.0.1366.728@0.0.1366.728" timestamp="1581860257132" />
     <state x="438" y="71" key="#xdebugger.evaluate" timestamp="1581794417654">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="438" y="71" key="#xdebugger.evaluate/0.0.1366.728@0.0.1366.728" timestamp="1581794417654" />
-    <state width="1322" height="306" key="GridCell.Tab.0.bottom" timestamp="1581857836921">
+    <state x="255" y="0" key="CommitChangelistDialog2" timestamp="1581860181590">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="306" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1581857836921" />
-    <state width="1322" height="306" key="GridCell.Tab.0.center" timestamp="1581857836921">
+    <state x="255" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1581860181590" />
+    <state x="463" y="120" key="FileChooserDialogImpl" timestamp="1581860916365">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="306" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1581857836921" />
-    <state width="1322" height="306" key="GridCell.Tab.0.left" timestamp="1581857836921">
+    <state x="463" y="120" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1581860916365" />
+    <state width="1322" height="306" key="GridCell.Tab.0.bottom" timestamp="1581865697244">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="306" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1581857836921" />
-    <state width="1322" height="306" key="GridCell.Tab.0.right" timestamp="1581857836921">
+    <state width="1322" height="306" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1581865697244" />
+    <state width="1322" height="306" key="GridCell.Tab.0.center" timestamp="1581865697244">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="306" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1581857836921" />
-    <state width="1322" height="194" key="GridCell.Tab.1.bottom" timestamp="1581827276858">
+    <state width="1322" height="306" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1581865697244" />
+    <state width="1322" height="306" key="GridCell.Tab.0.left" timestamp="1581865697244">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="194" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1581827276858" />
-    <state width="1322" height="194" key="GridCell.Tab.1.center" timestamp="1581827276858">
+    <state width="1322" height="306" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1581865697244" />
+    <state width="1322" height="306" key="GridCell.Tab.0.right" timestamp="1581865697244">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="194" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1581827276858" />
-    <state width="1322" height="194" key="GridCell.Tab.1.left" timestamp="1581827276858">
+    <state width="1322" height="306" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1581865697244" />
+    <state width="1322" height="194" key="GridCell.Tab.1.bottom" timestamp="1581865521512">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="194" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1581827276858" />
-    <state width="1322" height="194" key="GridCell.Tab.1.right" timestamp="1581827276858">
+    <state width="1322" height="194" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1581865521512" />
+    <state width="1322" height="194" key="GridCell.Tab.1.center" timestamp="1581865521512">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="194" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1581827276858" />
+    <state width="1322" height="194" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1581865521512" />
+    <state width="1322" height="194" key="GridCell.Tab.1.left" timestamp="1581865521512">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="194" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1581865521512" />
+    <state width="1322" height="194" key="GridCell.Tab.1.right" timestamp="1581865521512">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="194" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1581865521512" />
     <state x="213" y="20" key="Maven.ArtifactSearchDialog" timestamp="1581793567954">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="213" y="20" key="Maven.ArtifactSearchDialog/0.0.1366.728@0.0.1366.728" timestamp="1581793567954" />
-    <state x="186" y="0" key="SettingsEditor" timestamp="1581788236118">
+    <state x="186" y="0" key="SettingsEditor" timestamp="1581862005762">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="186" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1581788236118" />
-    <state x="275" y="98" key="Vcs.Push.Dialog.v2" timestamp="1581859521184">
+    <state x="186" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1581862005762" />
+    <state x="275" y="98" key="Vcs.Push.Dialog.v2" timestamp="1581860545872">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="98" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1581859521184" />
-    <state x="339" y="157" width="672" height="677" key="run.anything.popup" timestamp="1581857786902">
+    <state x="275" y="98" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1581860545872" />
+    <state x="339" y="157" width="672" height="677" key="run.anything.popup" timestamp="1581865070517">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="339" y="157" width="672" height="677" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1581857786902" />
+    <state x="339" y="157" width="672" height="677" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1581865070517" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

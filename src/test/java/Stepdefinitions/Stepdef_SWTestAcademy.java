@@ -2,9 +2,15 @@ package Stepdefinitions;
 
 import Config.TestBase;
 import Pages.swtContactPage;
+import io.cucumber.java.After;
+import io.cucumber.java.AfterStep;
+import io.cucumber.java.Scenario;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
+import org.junit.jupiter.api.AfterEach;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 
 public class Stepdef_SWTestAcademy  extends TestBase
 {
@@ -20,6 +26,7 @@ public class Stepdef_SWTestAcademy  extends TestBase
         swtContactPg = new swtContactPage(driver);
         swtContactPg.launchSwtAcademySite("https://www.swtestacademy.com/");
         //throw new io.cucumber.java.PendingException();
+
     }
 
     @When("he clicks on contacts link")
@@ -43,6 +50,46 @@ public class Stepdef_SWTestAcademy  extends TestBase
         if(driver!=null)
         {
             driver.close();
+        }
+    }
+    @AfterStep
+    public void tearDown(Scenario scenario)
+    {
+        if (scenario.isFailed() == false)
+        {
+            // Take a screenshot...
+          //  final byte[] screenshot = ((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES);
+            // embed it in the report.
+            scenario.write("Inside teardown method-->Test Passed");
+            //scenario.embed(screenshot, "image/png");
+        }
+        if (scenario.isFailed())
+        {
+            // Take a screenshot...
+            //  final byte[] screenshot = ((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES);
+            // embed it in the report.
+            scenario.write("Inside teardown method -->Test Failed");
+            //scenario.embed(screenshot, "image/png");
+        }
+    }
+    @After
+    public void tearDown2(Scenario scenario)
+    {
+        if (scenario.isFailed() == false)
+        {
+            // Take a screenshot...
+            //  final byte[] screenshot = ((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES);
+            // embed it in the report.
+            scenario.write("tearDown2 -- Inside teardown method-->Test Passed");
+            //scenario.embed(screenshot, "image/png");
+        }
+        if (scenario.isFailed())
+        {
+            // Take a screenshot...
+            //  final byte[] screenshot = ((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES);
+            // embed it in the report.
+            scenario.write("tearDown2 --Inside teardown method -->Test Failed");
+            //scenario.embed(screenshot, "image/png");
         }
     }
 }

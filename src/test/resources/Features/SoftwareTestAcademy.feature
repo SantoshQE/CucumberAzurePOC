@@ -1,4 +1,4 @@
-Feature: Software Test Academy functionalities
+Feature: As a user I want to test Software Test Academy ALL functionalities
 
 Scenario: Verify that user is able to navigate to contacts page
   Given User is on Software Test Academy site Home Page
