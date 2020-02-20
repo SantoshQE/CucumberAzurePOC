@@ -8,6 +8,8 @@ import io.cucumber.java.Scenario;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
+import javafx.fxml.FXML;
+import javafx.fxml.FXMLLoader;
 import org.junit.jupiter.api.AfterEach;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
@@ -26,6 +28,7 @@ public class Stepdef_SWTestAcademy  extends TestBase
         swtContactPg = new swtContactPage(driver);
         swtContactPg.launchSwtAcademySite("https://www.swtestacademy.com/");
         //throw new io.cucumber.java.PendingException();
+
 
     }
 
@@ -58,21 +61,24 @@ public class Stepdef_SWTestAcademy  extends TestBase
         if (scenario.isFailed() == false)
         {
             // Take a screenshot...
-          //  final byte[] screenshot = ((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES);
+            final byte[] screenshot = ((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES);
             // embed it in the report.
             scenario.write("Inside teardown method-->Test Passed");
-            //scenario.embed(screenshot, "image/png");
+           // scenario.embed(screenshot, "image/png");
+            //scenario.embed([dsds],"gf");
+            scenario.embed(screenshot,"image/png","Test");
+
         }
         if (scenario.isFailed())
         {
             // Take a screenshot...
-            //  final byte[] screenshot = ((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES);
+             final byte[] screenshot = ((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES);
             // embed it in the report.
             scenario.write("Inside teardown method -->Test Failed");
-            //scenario.embed(screenshot, "image/png");
+            scenario.embed(screenshot,"image/png","Test");
         }
     }
-    @After
+  /*  @After
     public void tearDown2(Scenario scenario)
     {
         if (scenario.isFailed() == false)
@@ -91,5 +97,5 @@ public class Stepdef_SWTestAcademy  extends TestBase
             scenario.write("tearDown2 --Inside teardown method -->Test Failed");
             //scenario.embed(screenshot, "image/png");
         }
-    }
+    }*/
 }

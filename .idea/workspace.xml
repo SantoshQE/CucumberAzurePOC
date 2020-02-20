@@ -4,12 +4,10 @@
     <list default="true" id="15b88a13-4ad6-411a-ace6-2d0778b89cad" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Stepdefinitions/Stepdef_SWTestAcademy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Stepdefinitions/Stepdef_SWTestAcademy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestRunners/TestRunner_SWTestAcademy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestRunners/TestRunner_SWTestAcademy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/Features/SoftwareTestAcademy.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/Features/SoftwareTestAcademy.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/cucumber-reports/Cucumber_Results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-reports/Cucumber_Results.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/Features/SoftwareTestAcademy.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Features/SoftwareTestAcademy.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/Stepdefinitions/Stepdef_SWTestAcademy.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Stepdefinitions/Stepdef_SWTestAcademy.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/TestRunners/TestRunner_SWTestAcademy.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/TestRunners/TestRunner_SWTestAcademy.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,6 +82,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Scenario: Verify that user is able to navigate to contacts page" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/Features/SoftwareTestAcademy.feature" />
+      <option name="GLUE" value="Stepdefinitions" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="BDDAutomationFramework" />
+      <option name="NAME_FILTER" value="^Verify that user is able to navigate to contacts page$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Verify that user is able to navigate to contacts page$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Verify that user is able to navigate to contacts page" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TC1_swtContactPage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="BDDAutomationFramework" />
       <extension name="coverage">
@@ -132,8 +149,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.TestRunner_SWTestAcademy" />
+        <item itemvalue="Cucumber java.Scenario: Verify that user is able to navigate to contacts page" />
         <item itemvalue="Cucumber java.Feature: SoftwareTestAcademy" />
-        <item itemvalue="JUnit.TC1_swtContactPageTest" />
         <item itemvalue="JUnit.TC2_Test" />
       </list>
     </recent_temporary>
@@ -156,7 +173,14 @@
       <option name="project" value="LOCAL" />
       <updated>1581860182637</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="cloned the remote repos">
+      <created>1581867307224</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1581867307224</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -164,70 +188,74 @@
     <option name="LAST_COMMIT_MESSAGE" value="cloned the remote repos" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="275" y="24" key="#Inspections" timestamp="1582219689902">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="24" key="#Inspections/0.0.1366.728@0.0.1366.728" timestamp="1582219689902" />
     <state x="275" y="24" key="#Notifications" timestamp="1581860257132">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="275" y="24" key="#Notifications/0.0.1366.728@0.0.1366.728" timestamp="1581860257132" />
-    <state x="438" y="71" key="#xdebugger.evaluate" timestamp="1581794417654">
+    <state x="438" y="71" key="#xdebugger.evaluate" timestamp="1582220370318">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="438" y="71" key="#xdebugger.evaluate/0.0.1366.728@0.0.1366.728" timestamp="1581794417654" />
-    <state x="255" y="0" key="CommitChangelistDialog2" timestamp="1581860181590">
+    <state x="438" y="71" key="#xdebugger.evaluate/0.0.1366.728@0.0.1366.728" timestamp="1582220370318" />
+    <state x="255" y="0" key="CommitChangelistDialog2" timestamp="1581867304505">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="255" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1581860181590" />
+    <state x="255" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1581867304505" />
     <state x="463" y="120" key="FileChooserDialogImpl" timestamp="1581860916365">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="120" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1581860916365" />
-    <state width="1322" height="306" key="GridCell.Tab.0.bottom" timestamp="1581865697244">
+    <state width="1322" height="224" key="GridCell.Tab.0.bottom" timestamp="1582220674404">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="306" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1581865697244" />
-    <state width="1322" height="306" key="GridCell.Tab.0.center" timestamp="1581865697244">
+    <state width="1322" height="224" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1582220674404" />
+    <state width="1322" height="224" key="GridCell.Tab.0.center" timestamp="1582220674403">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="306" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1581865697244" />
-    <state width="1322" height="306" key="GridCell.Tab.0.left" timestamp="1581865697244">
+    <state width="1322" height="224" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1582220674403" />
+    <state width="1322" height="224" key="GridCell.Tab.0.left" timestamp="1582220674403">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="306" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1581865697244" />
-    <state width="1322" height="306" key="GridCell.Tab.0.right" timestamp="1581865697244">
+    <state width="1322" height="224" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1582220674403" />
+    <state width="1322" height="224" key="GridCell.Tab.0.right" timestamp="1582220674403">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="306" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1581865697244" />
-    <state width="1322" height="194" key="GridCell.Tab.1.bottom" timestamp="1581865521512">
+    <state width="1322" height="224" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1582220674403" />
+    <state width="1322" height="285" key="GridCell.Tab.1.bottom" timestamp="1582220432092">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="194" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1581865521512" />
-    <state width="1322" height="194" key="GridCell.Tab.1.center" timestamp="1581865521512">
+    <state width="1322" height="285" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1582220432092" />
+    <state width="1322" height="285" key="GridCell.Tab.1.center" timestamp="1582220432092">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="194" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1581865521512" />
-    <state width="1322" height="194" key="GridCell.Tab.1.left" timestamp="1581865521512">
+    <state width="1322" height="285" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1582220432092" />
+    <state width="1322" height="285" key="GridCell.Tab.1.left" timestamp="1582220432092">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="194" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1581865521512" />
-    <state width="1322" height="194" key="GridCell.Tab.1.right" timestamp="1581865521512">
+    <state width="1322" height="285" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1582220432092" />
+    <state width="1322" height="285" key="GridCell.Tab.1.right" timestamp="1582220432092">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="194" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1581865521512" />
+    <state width="1322" height="285" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1582220432092" />
     <state x="213" y="20" key="Maven.ArtifactSearchDialog" timestamp="1581793567954">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="213" y="20" key="Maven.ArtifactSearchDialog/0.0.1366.728@0.0.1366.728" timestamp="1581793567954" />
-    <state x="186" y="0" key="SettingsEditor" timestamp="1581862005762">
+    <state x="186" y="0" key="SettingsEditor" timestamp="1582135160661">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="186" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1581862005762" />
+    <state x="186" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1582135160661" />
     <state x="275" y="98" key="Vcs.Push.Dialog.v2" timestamp="1581860545872">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="275" y="98" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1581860545872" />
-    <state x="339" y="157" width="672" height="677" key="run.anything.popup" timestamp="1581865070517">
+    <state x="339" y="157" width="672" height="677" key="run.anything.popup" timestamp="1581869187794">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="339" y="157" width="672" height="677" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1581865070517" />
+    <state x="339" y="157" width="672" height="677" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1581869187794" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -256,6 +284,31 @@
           <url>file://$PROJECT_DIR$/src/main/java/Config/TestResultLoggerExtension.java</url>
           <line>75</line>
           <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/Stepdefinitions/Stepdef_SWTestAcademy.java</url>
+          <line>60</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/Stepdefinitions/Stepdef_SWTestAcademy.java</url>
+          <line>63</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/Stepdefinitions/Stepdef_SWTestAcademy.java</url>
+          <line>74</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/Stepdefinitions/Stepdef_SWTestAcademy.java</url>
+          <line>76</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/Stepdefinitions/Stepdef_SWTestAcademy.java</url>
+          <line>77</line>
+          <option name="timeStamp" value="13" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-field">
           <url>file://$PROJECT_DIR$/src/main/java/Config/TestResultLoggerExtension.java</url>
