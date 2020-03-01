@@ -4,6 +4,9 @@ import Config.TestBase;
 import com.opencsv.CSVReader;
 import org.apache.commons.io.FileUtils;
 import org.apache.commons.io.IOUtils;
+import org.json.JSONException;
+import org.json.JSONObject;
+import org.json.XML;
 import org.openqa.selenium.*;
 import javax.imageio.ImageIO;
 import java.awt.*;
@@ -356,4 +359,13 @@ public class TestUtil extends TestBase {
         String testcase = m.getName();
         return TestUtil.getData(testcase, excel);
     }
+
+    public static String convert(String json, String root) throws JSONException {
+        JSONObject jsonObject = new JSONObject(json);
+        String xml = "<?xml version=\"1.0\" encoding=\"ISO-8859-15\"?>\n<"+root+">" + XML.toString(jsonObject) + "</"+root+">";
+        return xml;
+    }
+
+
+
 }

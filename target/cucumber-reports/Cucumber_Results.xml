@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="16.67">
-<testcase classname="As a user I want to test Software Test Academy ALL functionalities" name="Verify that user is able to navigate to contacts page" time="16.072">
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="20.141">
+<testcase classname="As a user I want to test Software Test Academy ALL functionalities" name="Verify that user is able to navigate to contacts page" time="19.274">
 <system-out><![CDATA[Given User is on Software Test Academy site Home Page.......................passed
 When he clicks on contacts link.............................................passed
 Then contacts page is displayed.............................................passed
