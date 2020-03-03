@@ -9,20 +9,14 @@ import io.cucumber.java.Scenario;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
-import javafx.fxml.FXML;
-import javafx.fxml.FXMLLoader;
 import org.junit.jupiter.api.AfterAll;
-import org.junit.jupiter.api.AfterEach;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
-
 import java.io.IOException;
 
 public class Stepdef_SWTestAcademy  extends TestBase
 {
     public static swtContactPage swtContactPg ;
-    public static TestBase init ;
-    public static TestBase extentTestbase;
 
     @Given("User is on Software Test Academy site Home Page")
     public void user_is_on_Software_Test_Academy_site_Home_Page()
