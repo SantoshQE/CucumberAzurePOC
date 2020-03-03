@@ -3,10 +3,13 @@ package TestCases;
 import Config.TestBase;
 import Config.TestResultLoggerExtension;
 import Pages.swtContactPage;
+import Utils.TestUtil;
 import org.junit.jupiter.api.*;
 import org.junit.jupiter.api.TestInfo;
 import org.junit.jupiter.api.TestReporter;
 import org.junit.jupiter.api.extension.ExtendWith;
+
+import java.io.IOException;
 
 @TestMethodOrder(MethodOrderer.OrderAnnotation.class)
 @ExtendWith({TestResultLoggerExtension.class})
@@ -55,11 +58,11 @@ public class TC1_swtContactPage extends TestBase
         testReporter.publishEntry(" publish entry test -- : " + testInfo.getTestMethod().toString());
     }
     @AfterAll() //Teardown steps close the borser
-    public static void tearDown_Chrome()
-    {
+    public static void tearDown_Chrome() throws IOException {
         if(driver!=null)
         {
             driver.close();
         }
+
     }
 }

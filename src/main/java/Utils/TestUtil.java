@@ -14,6 +14,7 @@ import java.awt.Rectangle;
 import java.awt.image.BufferedImage;
 import java.io.*;
 import java.lang.reflect.Method;
+import java.nio.charset.StandardCharsets;
 import java.util.Base64;
 import java.util.Date;
 import java.util.Hashtable;
@@ -360,12 +361,26 @@ public class TestUtil extends TestBase {
         return TestUtil.getData(testcase, excel);
     }
 
-    public static String convert(String json, String root) throws JSONException {
+    public static String convert(String json, String testsuite) throws JSONException
+    {
         JSONObject jsonObject = new JSONObject(json);
-        String xml = "<?xml version=\"1.0\" encoding=\"ISO-8859-15\"?>\n<"+root+">" + XML.toString(jsonObject) + "</"+root+">";
+        String xml = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<"+testsuite+">" + XML.toString(jsonObject) + "</"+testsuite+">";
         return xml;
     }
+    public static void convertJSONToXML() throws IOException {
+        String reportXmlPath = System.getProperty("user.dir") + "\\target\\cucumber-reports\\Cucumber.json";
+        String exampleRequest = FileUtils.readFileToString(new File(reportXmlPath), StandardCharsets.UTF_8);
+        //System.out.println(exampleRequest.length());
+        exampleRequest = exampleRequest.substring(2,exampleRequest.length()-1);
+        System.out.println(exampleRequest);
+        //  System.out.println(exampleRequest);
+        String str = exampleRequest;
+        //Convert JSON to XML
+        String xml = convert(str, "testsuite"); // This method converts json object to xml string
+        System.out.println(xml);
+        java.io.FileWriter fw = new java.io.FileWriter(System.getProperty("user.dir") + "\\target\\cucumber-reports\\"+"Cucumber_ReadFromJson.xml");
+        fw.write(xml);
+        fw.close();
 
-
-
+    }
 }

@@ -3,12 +3,47 @@
   <component name="ChangeListManager">
     <list default="true" id="15b88a13-4ad6-411a-ace6-2d0778b89cad" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Utils/TestUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Utils/TestUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Utils/TestUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Utils/TestUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber-reports/Cucumber.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-reports/Cucumber.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber-reports/Cucumber_Results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-reports/Cucumber_Results.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Stepdefinitions/Stepdef_SWTestAcademy.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Stepdefinitions/Stepdef_SWTestAcademy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Stepdefinitions/Stepdef_SWTestAcademy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Stepdefinitions/Stepdef_SWTestAcademy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestCases/TC1_swtContactPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestCases/TC1_swtContactPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestCases/convertJasonToXML.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestRunners/TestRunner_SWTestAcademy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestRunners/TestRunner_SWTestAcademy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/AutoitExe/Login_WinAuthentication.au3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/AutoitExe/Login_WinAuthentication.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ChromeDriver/Chrome76/chromedriver.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ChromeDriver/Chrome78/chromedriver.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ChromeDriver/Chrome80/chromedriver.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Config/ReportManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Config/RunListenerAdapter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Config/TestBase.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Config/TestResultLoggerExtension$TestResultStatus.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Config/TestResultLoggerExtension.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/IEDriver/IEDriverServer.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/IEDriver/IEDriverServer_Win32_2.39.0/IEDriverServer.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ObjectRepository/SWTestAcademy_OR.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Pages/swtContactPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/TestData/TestData.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/TestData/TestData.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Utils/Constants.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Utils/ExcelReader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Utils/TestUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Utils/convertORToPOMStyle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/properties/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-reports/Cucumber.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-reports/Cucumber_Results.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-reports/embedded0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-reports/embedded1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-reports/embedded2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-reports/formatter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-reports/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-reports/jquery-3.4.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-reports/report.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-reports/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Features/SoftwareTestAcademy.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Stepdefinitions/Stepdef_SWTestAcademy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/TestCases/TC1_swtContactPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/TestCases/convertJasonToXML.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/TestRunners/TestRunner_SWTestAcademy.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,11 +97,11 @@
       <command value="mvn test install surefire-report:report" />
       <command value="mvn clean install surefire-report:report" />
       <command value="mvn clean test install surefire-report:report" />
-      <command value="mvn clean" />
       <command value="cucumber" />
+      <command value="mvn clean" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.convertJasonToXML">
+  <component name="RunManager" selected="JUnit.TestRunner_SWTestAcademy">
     <configuration name="convertJasonToXML" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="TestCases.convertJasonToXML" />
       <module name="BDDAutomationFramework" />
@@ -148,8 +183,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.convertJasonToXML" />
         <item itemvalue="JUnit.TestRunner_SWTestAcademy" />
+        <item itemvalue="Application.convertJasonToXML" />
         <item itemvalue="Cucumber java.Feature: SoftwareTestAcademy" />
         <item itemvalue="Cucumber java.Scenario: Verify that user is able to navigate to contacts page" />
         <item itemvalue="JUnit.TC2_Test" />
@@ -188,13 +223,21 @@
       <option name="project" value="LOCAL" />
       <updated>1582220845073</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="class to convert json report to xml">
+      <created>1583088720057</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1583088720057</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="cloned the remote repos" />
     <MESSAGE value="added code to take screenshot at each step" />
-    <option name="LAST_COMMIT_MESSAGE" value="added code to take screenshot at each step" />
+    <MESSAGE value="class to convert json report to xml" />
+    <option name="LAST_COMMIT_MESSAGE" value="class to convert json report to xml" />
   </component>
   <component name="WindowStateProjectService">
     <state x="275" y="24" key="#Inspections" timestamp="1582219689902">
@@ -213,46 +256,46 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="438" y="71" key="#xdebugger.evaluate/0.0.1366.728@0.0.1366.728" timestamp="1582220370318" />
-    <state x="255" y="0" key="CommitChangelistDialog2" timestamp="1582220843340">
+    <state x="255" y="0" key="CommitChangelistDialog2" timestamp="1583088717955">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="255" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1582220843340" />
+    <state x="255" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1583088717955" />
     <state x="463" y="120" key="FileChooserDialogImpl" timestamp="1581860916365">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="120" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1581860916365" />
-    <state width="1322" height="454" key="GridCell.Tab.0.bottom" timestamp="1583081409916">
+    <state width="1322" height="186" key="GridCell.Tab.0.bottom" timestamp="1583258407400">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="454" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1583081409916" />
-    <state width="1322" height="454" key="GridCell.Tab.0.center" timestamp="1583081409916">
+    <state width="1322" height="186" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1583258407400" />
+    <state width="1322" height="186" key="GridCell.Tab.0.center" timestamp="1583258407400">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="454" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1583081409916" />
-    <state width="1322" height="454" key="GridCell.Tab.0.left" timestamp="1583081409916">
+    <state width="1322" height="186" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1583258407400" />
+    <state width="1322" height="186" key="GridCell.Tab.0.left" timestamp="1583258407400">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="454" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1583081409916" />
-    <state width="1322" height="454" key="GridCell.Tab.0.right" timestamp="1583081409916">
+    <state width="1322" height="186" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1583258407400" />
+    <state width="1322" height="186" key="GridCell.Tab.0.right" timestamp="1583258407400">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="454" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1583081409916" />
-    <state width="1322" height="285" key="GridCell.Tab.1.bottom" timestamp="1582220914995">
+    <state width="1322" height="186" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1583258407400" />
+    <state width="1322" height="285" key="GridCell.Tab.1.bottom" timestamp="1583258375361">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="285" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1582220914995" />
-    <state width="1322" height="285" key="GridCell.Tab.1.center" timestamp="1582220914995">
+    <state width="1322" height="285" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1583258375361" />
+    <state width="1322" height="285" key="GridCell.Tab.1.center" timestamp="1583258375361">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="285" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1582220914995" />
-    <state width="1322" height="285" key="GridCell.Tab.1.left" timestamp="1582220914994">
+    <state width="1322" height="285" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1583258375361" />
+    <state width="1322" height="285" key="GridCell.Tab.1.left" timestamp="1583258375361">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="285" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1582220914994" />
-    <state width="1322" height="285" key="GridCell.Tab.1.right" timestamp="1582220914995">
+    <state width="1322" height="285" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1583258375361" />
+    <state width="1322" height="285" key="GridCell.Tab.1.right" timestamp="1583258375361">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="285" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1582220914995" />
+    <state width="1322" height="285" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1583258375361" />
     <state x="213" y="20" key="Maven.ArtifactSearchDialog" timestamp="1581793567954">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -261,31 +304,31 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="186" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1582135160661" />
-    <state x="275" y="98" key="Vcs.Push.Dialog.v2" timestamp="1582220849660">
+    <state x="275" y="98" key="Vcs.Push.Dialog.v2" timestamp="1583088726331">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="98" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1582220849660" />
-    <state x="339" y="157" width="672" height="677" key="run.anything.popup" timestamp="1583076468697">
+    <state x="275" y="98" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1583088726331" />
+    <state x="339" y="157" width="672" height="677" key="run.anything.popup" timestamp="1583258390497">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="339" y="157" width="672" height="677" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1583076468697" />
+    <state x="339" y="157" width="672" height="677" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1583258390497" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/TestCases/TC1_swtContactPage.java</url>
-          <line>52</line>
+          <line>55</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/TestCases/TC1_swtContactPage.java</url>
-          <line>54</line>
+          <line>57</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/TestCases/TC1_swtContactPage.java</url>
-          <line>46</line>
+          <line>49</line>
           <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -300,28 +343,43 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/Stepdefinitions/Stepdef_SWTestAcademy.java</url>
-          <line>60</line>
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/Stepdefinitions/Stepdef_SWTestAcademy.java</url>
-          <line>63</line>
-          <option name="timeStamp" value="9" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/Stepdefinitions/Stepdef_SWTestAcademy.java</url>
-          <line>74</line>
+          <line>76</line>
           <option name="timeStamp" value="11" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/Stepdefinitions/Stepdef_SWTestAcademy.java</url>
-          <line>76</line>
+          <line>78</line>
           <option name="timeStamp" value="12" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/Stepdefinitions/Stepdef_SWTestAcademy.java</url>
-          <line>77</line>
+          <line>79</line>
           <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/TestRunners/TestRunner_SWTestAcademy.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/TestRunners/TestRunner_SWTestAcademy.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/Stepdefinitions/Stepdef_SWTestAcademy.java</url>
+          <line>112</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/Stepdefinitions/Stepdef_SWTestAcademy.java</url>
+          <line>113</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Utils/TestUtil.java</url>
+          <line>382</line>
+          <option name="timeStamp" value="21" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-field">
           <url>file://$PROJECT_DIR$/src/main/java/Config/TestResultLoggerExtension.java</url>

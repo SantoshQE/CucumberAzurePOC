@@ -2,6 +2,7 @@ package Stepdefinitions;
 
 import Config.TestBase;
 import Pages.swtContactPage;
+import Utils.TestUtil;
 import io.cucumber.java.After;
 import io.cucumber.java.AfterStep;
 import io.cucumber.java.Scenario;
@@ -10,9 +11,12 @@ import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
+import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.AfterEach;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
+
+import java.io.IOException;
 
 public class Stepdef_SWTestAcademy  extends TestBase
 {
@@ -28,8 +32,6 @@ public class Stepdef_SWTestAcademy  extends TestBase
         swtContactPg = new swtContactPage(driver);
         swtContactPg.launchSwtAcademySite("https://www.swtestacademy.com/");
         //throw new io.cucumber.java.PendingException();
-
-
     }
 
     @When("he clicks on contacts link")
@@ -98,4 +100,17 @@ public class Stepdef_SWTestAcademy  extends TestBase
             //scenario.embed(screenshot, "image/png");
         }
     }*/
+  @After
+    public void convertJsonReportToXML() throws IOException
+  {
+      driver.quit();
+      //TestUtil.convertJSONToXML();
+     // checkifRunFinished();
+  }
+    @AfterAll
+    public void checkifRunFinished() throws IOException
+    {
+        System.out.println("Inside checkifRunFinished..");
+        TestUtil.convertJSONToXML();
+    }
 }
